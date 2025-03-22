@@ -20,12 +20,10 @@ export const metadata: Metadata = {
 	},
 	description: metaData.description,
 	openGraph: {
-		images: metaData.ogImage,
 		title: metaData.title,
 		description: metaData.description,
 		url: metaData.baseUrl,
 		siteName: metaData.name,
-		locale: "en_US",
 		type: "website",
 	},
 	robots: {
