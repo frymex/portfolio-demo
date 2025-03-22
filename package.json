@@ -2,9 +2,9 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev ",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 5600"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.6.0",
