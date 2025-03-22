@@ -33,7 +33,7 @@ export function middleware(request: NextRequest) {
 	);
 
 
-	if (pathnameIsMissingLocale && !pathname.endsWith(".jpg")) {
+	if (pathnameIsMissingLocale && !pathname.endsWith(".jpg") && !pathname.endsWith(".xml") && !pathname.endsWith(".txt")) {
 		const locale = getLocale(request);
 
 		// e.g. incoming request is /products
